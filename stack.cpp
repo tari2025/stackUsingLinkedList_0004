@@ -23,3 +23,6 @@ public:
     {
         top = NULL;
     }
+    // push operation:
+    int push(int value)
+    {
