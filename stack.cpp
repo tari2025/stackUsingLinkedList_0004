@@ -98,3 +98,14 @@ int main()
     case 3:
         stack.peek();
         break;
+    case 4:
+        cout << "Existing program." << endl;
+        break;
+    default:
+        cout << " Invalide choice. Try again." << endl;
+        break;
+    }
+    cout << endl;
+}
+
+return 0;
