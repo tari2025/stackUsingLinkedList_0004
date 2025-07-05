@@ -35,3 +35,14 @@ public:
     }
     // isEmpty operation : check if the stack is empty
     bool isEmpty()
+    {
+        return top == NULL; // return if the top pointer is NULL, indicating an empty stack
+    }
+
+    void pop()
+    {
+        if (isEmpty())
+        {
+            cout << "Stack is empty." << endl;
+            return; // if the stack is empty, print a message and return
+        }
